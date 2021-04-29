@@ -1,0 +1,186 @@
+body {
+  margin: 0PX;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  padding:1% 5%;
+  background-color: #EAF6F6;
+}
+
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 3% 3%;
+}
+
+.top {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px
+}
+
+.middle {
+  margin: 100px 0 70px;
+}
+
+.bottom {
+  padding: 50px 0 10px 0;
+  background-color: #66BFBF;
+}
+
+span {
+  font-weight: normal;
+}
+
+h1 {
+  margin: 50px auto 20px auto;
+  font-size: 7.5rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #11999E;
+  margin-bottom: 25px;
+}
+
+p {
+  margin : 0 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+hr {
+  margin: 5% auto;
+  border: dotted #CCD5DF 6px;
+  border-bottom: none;
+  width: 5%;
+  background-color: #fff;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 280px;
+}
+
+.Myself{
+  margin-bottom: 30px;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 60px auto 80px auto;
+  text-align: left;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 80px auto 100px auto;
+  text-align: left;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  padding-left: 0;
+  margin-left: 0px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #fd7e14;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #ffc107;} /* Yellowish */
+.py {width: 75%; background-color: #0061a8;} /* Yellow */
+.c {width: 70%; background-color: #6f42c1;} /* Purple */
+.cpp {width: 65%; background-color: #2196F3;} /* Blue */
+.java {width: 60%; background-color: #dc3545;} /* Red */
+.php {width: 50%; background-color: #808080;} /* Dark Grey */
+
+.Logo{
+  width: 5%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  color: #40514E;
+}
+
+.contacto{
+  margin: 35px auto 50px;
+  width: 40%;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+a{
+  color: #11999E;
+  margin: 20px 30px;
+  text-decoration: none;
+}
+
+.cpr {
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
