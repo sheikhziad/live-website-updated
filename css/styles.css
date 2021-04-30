@@ -10,12 +10,10 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-  color: #66bfbf;
   font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: #66bfbf;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
