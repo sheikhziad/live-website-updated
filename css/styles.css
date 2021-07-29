@@ -202,3 +202,14 @@ a:hover{
   color: #EAF6F6;
   padding: 20px 0;
 }
+
+.fab{
+  color: #11999E;
+  font-size: 30px;
+  width: 5%;
+  margin-bottom: 20px;
+}
+
+.fab:hover{
+  color: #EAF6F6;
+}
